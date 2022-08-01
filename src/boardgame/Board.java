@@ -40,4 +40,11 @@ public class Board {
 		// retornar matriz pieces com linha e coluna
 		return pieces[position.getRow()][position.getColumn()];
 	}
+	
+	// método para colocar peça no tabuleiro
+	public void placePiece(Piece piece, Position position) {
+		// na matriz de peças, atribuir a peça que veio como argumento desse método
+		pieces[position.getRow()][position.getColumn()] = piece;
+		piece.position = position;
+	}
 }
