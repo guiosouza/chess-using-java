@@ -28,5 +28,16 @@ public class Board {
 		this.columns = columns;
 	}
 	
+	// retornar peça dada uma linha e coluna
 	
+	public Piece piece (int row, int column) {
+		// retornar matriz pieces com linha e coluna
+		return pieces[row][column];
+	}
+	
+	// sobrecarga de piece
+	public Piece piece (Position position) {
+		// retornar matriz pieces com linha e coluna
+		return pieces[position.getRow()][position.getColumn()];
+	}
 }
