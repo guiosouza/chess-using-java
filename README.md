@@ -17,5 +17,9 @@
 ### - Classe `ChessPiece` (peça de xadrez que é filha de peça)
 ![image](https://user-images.githubusercontent.com/78989152/182230962-0d747bf1-bd7c-42c6-a441-7ee5b840d200.png)
 
+### - Classe `ChessMatch` (partida de xadrez. Essa classe é o coração do projeto)
+![image](https://user-images.githubusercontent.com/78989152/182241527-49e6621b-044b-4bcf-8ee1-7d8f9bca81cb.png)
+
+
 
 
