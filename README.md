@@ -20,6 +20,9 @@
 ### - Classe `ChessMatch` (partida de xadrez. Essa classe é o coração do projeto)
 ![image](https://user-images.githubusercontent.com/78989152/182241527-49e6621b-044b-4bcf-8ee1-7d8f9bca81cb.png)
 
+### - Classe de tratamento de erro `BoardException` (exceção de erro no tabuleiro)
+![image](https://user-images.githubusercontent.com/78989152/182251246-76153475-7939-46f0-b216-3d662f61294a.png)
+
 
 
 
