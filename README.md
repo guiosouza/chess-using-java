@@ -23,6 +23,8 @@
 ### - Classe de tratamento de erro `BoardException` (exceção de erro no tabuleiro)
 ![image](https://user-images.githubusercontent.com/78989152/182251246-76153475-7939-46f0-b216-3d662f61294a.png)
 
+### - Classe de tratamento de erro `ChessException` (exceção de erro no na partida)
+![image](https://user-images.githubusercontent.com/78989152/182252340-a1cffe5a-81e8-4724-a798-bfd4ab775e88.png)
 
 
 
