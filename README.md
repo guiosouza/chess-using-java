@@ -26,5 +26,7 @@
 ### - Classe de tratamento de erro `ChessException` (exceção de erro no na partida)
 ![image](https://user-images.githubusercontent.com/78989152/182252340-a1cffe5a-81e8-4724-a798-bfd4ab775e88.png)
 
+### - Classe `ChessPosition` (classe da posição das peça no jogo)
+![image](https://user-images.githubusercontent.com/78989152/182433902-b8ea6c3d-9adc-44ab-b9eb-92b3abfb165e.png)
 
 
