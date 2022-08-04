@@ -1,6 +1,7 @@
 package boardgame;
 
-public class Piece {
+// piece é abstrato para servir em qualquer peça
+public abstract class Piece {
 	
 	protected Position position;
 	private Board board;
@@ -14,4 +15,24 @@ public class Piece {
 		return board;
 	}
 	
+	// operação abstrata porque não sabemos qual peça ainda
+	public abstract boolean[][] possibleMoves();
+	
+	// testar se pode mover
+	public boolean possibleMove(Position position) {
+		return possibleMoves()[position.getRow()][position.getColumn()];
+	}
+	
+	// verificar se a 
+	public boolean isThereAnyPossibleMove() {
+		boolean[][] mat = possibleMoves();
+		for(int i = 0; i < mat.length; i ++) {
+			for (int j = 0; j < mat.length; j ++) {
+				if(mat[i][j]) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
 }
