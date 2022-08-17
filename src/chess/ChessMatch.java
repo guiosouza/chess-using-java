@@ -90,7 +90,8 @@ public class ChessMatch {
 	}
 	
 	private Piece makeMove(Position source, Position target) {
-		Piece p = board.removePiece(source); // retirou a peça da posição de origem
+		ChessPiece p = (ChessPiece)board.removePiece(source); // retirou a peça da posição de origem - downcasting
+		p.increaseMoveCount(); // aumentar contador
 		Piece capturedPiece = board.removePiece(target); // remover possível peça na posição de destino
 		board.placePiece(p, target);
 		
@@ -103,7 +104,8 @@ public class ChessMatch {
 	}
 	
 	private void undoMove(Position source, Position target, Piece capturedPiece) {
-		Piece p = board.removePiece(target);
+		ChessPiece p = (ChessPiece)board.removePiece(target);
+		p.decreaseMoveCount(); // diminuir contador
 		board.placePiece(p, source);
 		
 		if (capturedPiece != null) {
