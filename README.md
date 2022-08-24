@@ -1,5 +1,10 @@
 # PROJETO DE XADREZ (SEM INTERFACE GRÁFICA)
 
+# Tabuleiro pronto
+
+![image](https://user-images.githubusercontent.com/78989152/186504091-5cc7531e-10cd-4858-a6cd-83906ff5c7f1.png)
+
+
 ## Classes
 ### - Classe `Position` (posição da peça)
 
