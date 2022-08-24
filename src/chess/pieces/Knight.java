@@ -13,7 +13,7 @@ public class Knight extends ChessPiece {
 
 	@Override
 	public String toString() {
-		return "K";
+		return "N";
 	}
 	
 	// vai falar se o rei pode mover para determinada position
